@@ -16,6 +16,25 @@ Developed the backend for Jarvis, an automated AI agent creation platform for in
 
 I also developed the repository’s initial GitHub Actions workflows to automate standard checks ranging from ensuring code quality to testing bot deployments and deletion endpoints triggered whenever a pull request is opened or merged into the main branch.
 
+### FAQ Analyzer Plugin on Botpress
+*May 2025*
+
+Developed an open-source plugin which autocreates a table and a hook using the Botpress Vanilla Client. The hook attached to your Agent will run in the background everytime a conversation ends (thus not affecting the original conversation and any conversations that come after it from the same user --> it runs entirely in the background).
+
+Essentially, the hook uses the Botpress ZAI package, ZUI (Zod + UI) + AI, to analyze the user messages and context to keep a track of the most frequently asked questions by all of the users that use your Agent. The analytics is provided in the table that was autocreated.
+
+The issue with just storing messages directly without using ZAI is that conversations aren't static. For instance, a user may have the following conversation:
+
+"How much GDP does Canada have?"
+"What about the U.S?"
+
+Just storing messages directly would not work as "What about the U.S?" is not a real question. It needs to be stored as "How much GDP does the U.S. have?"
+
+Additionally, we need to use zai checking and extraction to see if the same question has been asked before because we don't want duplicates of the same question.
+I.e: "How much GDP does the U.S. have?" and "How much GDP does the U.S.A. have?". These should be the same entry in the table.
+
+Thus, using TypeScript with zod schemas + ZAI, I managed to make an open-source plugin used by many high-priority clients!
+
 ### BigCommerce Sync Integration with Botpress
 *March 2025 - April 2025*
 
