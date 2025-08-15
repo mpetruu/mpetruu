@@ -16,6 +16,8 @@ Developed the backend for Jarvis, an automated AI agent creation platform for in
 
 I also developed the repository’s initial GitHub Actions workflows to automate standard checks ranging from ensuring code quality to testing bot deployments and deletion endpoints triggered whenever a pull request is opened or merged into the main branch.
 
+---
+
 ### FAQ Analyzer Plugin on Botpress
 *May 2025*
 
@@ -35,6 +37,8 @@ I.e: "How much GDP does the U.S. have?" and "How much GDP does the U.S.A. have?"
 
 Thus, using TypeScript with zod schemas + ZAI, I managed to make an open-source plugin used by many high-priority clients!
 
+---
+
 ### BigCommerce Sync Integration with Botpress
 *March 2025 - April 2025*
 
@@ -49,6 +53,8 @@ When one of those 3 events occur, the Agent's table is updated to match the stor
 It keeps track of many fields (cost, weight, quantity left, etc...) so that the bot can make accurate recommendations.
 
 I have a video demo on how to set it up [here](https://www.youtube.com/watch?v=3Y_WlvMT8AA)
+
+---
 
 ### ConUHacks IX - Sun Life Sponsored Challenge Winner
 *February 2025*
@@ -65,15 +71,21 @@ Designed interactive budgeting tools, a financial literacy quiz, and accessibili
 
 Leveraged a Python FastAPI framework for secure user authentication and account data retrieval.
 
+---
+
 ### McGill Rocket Team - Software Team Member (Radios Subteam)
 *September 2024 - November 2024*
 
 Built test software for sending and receiving radio signals from the ground station to the rocket using C++ and Teensy 4.0/4.1 microcontrollers.
 
+---
+
 ### Ilys Programming Language
 *August 2024*
 
 Created a lexer and parser for a custom programming language called Ilys. Both are written in C++. I started this project to get prepared for my OCaml course. I do want to learn compiler design in the future and will come back to this project. See it [here](https://github.com/mpetruu/mpetruu/tree/main/Ilys).
+
+---
 
 ## 🔧 Languages used in Projects
 [![Top Langs (Work)](https://github-readme-stats.vercel.app/api/top-langs/?username=mpetruu&layout=compact&theme=default&title_color=333)](https://github.com/mpetruu)
