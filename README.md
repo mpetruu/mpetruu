@@ -54,7 +54,7 @@ Built test software for sending and receiving radio signals from the ground stat
 ### Ilys Programming Language
 *August 2024*
 
-Created a lexer and parser for a custom programming language called Ilys. Both are written in C++. I started this project to get prepared for my OCaml course. I do want to learn compiler design in the future and will come back to this project. See it [here]().
+Created a lexer and parser for a custom programming language called Ilys. Both are written in C++. I started this project to get prepared for my OCaml course. I do want to learn compiler design in the future and will come back to this project. See it [here](https://github.com/mpetruu/mpetruu/tree/main/Ilys).
 
 ## 🔧 Languages used in Projects
 [![Top Langs (Work)](https://github-readme-stats.vercel.app/api/top-langs/?username=mpetruu&layout=compact&theme=default&title_color=333)](https://github.com/mpetruu)
