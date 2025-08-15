@@ -1,0 +1,163 @@
+{
+    "name": "John Doe",
+    "transactions": {
+        "2025-02": [
+        {
+          "id": 0,
+          "date": "2025-02-01",
+          "amount": 1000.00,
+          "category": "Starting Balance",
+          "payment_method": "Bank",
+          "source": "Initial Deposit",
+          "recurring": null
+        },
+        {
+          "id": 1,
+          "date": "2025-02-01",
+          "amount": -50.75,
+          "category": "Groceries",
+          "payment_method": "Credit",
+          "merchant": "Walmart",
+          "recurring": null
+        },
+        {
+          "id": 2,
+          "date": "2025-02-01",
+          "amount": 2000.00,
+          "category": "Income",
+          "payment_method": "Debit",
+          "source": "Employer",
+          "recurring": "monthly"
+        },
+        {
+          "id": 3,
+          "date": "2025-02-02",
+          "amount": -120.99,
+          "currency": "USD",
+          "category": "Utilities",
+          "provider": "Power Company",
+          "recurring": "monthly"
+        },
+        {
+          "id": 4,
+          "date": "2025-02-02",
+          "amount": -25.00,
+          "category": "Entertainment",
+          "merchant": "Netflix",
+          "recurring": "monthly"
+        },
+        {
+          "id": 5,
+          "date": "2025-02-03",
+          "amount": -75.30,
+          "category": "Dining",
+          "payment_method": "Credit",
+          "merchant": "Olive Garden",
+          "recurring": null
+        },
+        {
+          "id": 6,
+          "date": "2025-02-04",
+          "amount": -15.00,
+          "category": "Transportation",
+          "payment_method": "Debit",
+          "merchant": "Uber",
+          "recurring": null
+        },
+        {
+          "id": 7,
+          "date": "2025-02-05",
+          "amount": -80.00,
+          "category": "Health & Fitness",
+          "payment_method": "Credit",
+          "merchant": "Gym Membership",
+          "recurring": "monthly"
+        },
+        {
+          "id": 8,
+          "date": "2025-02-06",
+          "amount": -300.00,
+          "category": "Rent",
+          "payment_method": "Bank Transfer",
+          "merchant": "Landlord",
+          "recurring": "monthly"
+        },
+        {
+          "id": 9,
+          "date": "2025-02-07",
+          "amount": -45.99,
+          "category": "Shopping",
+          "payment_method": "Credit",
+          "merchant": "Amazon",
+          "recurring": null
+        },
+        {
+          "id": 10,
+          "date": "2025-02-08",
+          "amount": -60.00,
+          "category": "Education",
+          "payment_method": "Debit",
+          "merchant": "Online Course",
+          "recurring": null
+        },
+        {
+          "id": 11,
+          "date": "2025-02-09",
+          "amount": 150.00,
+          "category": "Freelance Income",
+          "payment_method": "Debit",
+          "source": "Client",
+          "recurring": null
+        },
+        {
+          "id": 12,
+          "date": "2025-02-10",
+          "amount": -12.99,
+          "category": "Entertainment",
+          "payment_method": "Credit",
+          "merchant": "Spotify",
+          "recurring": "monthly"
+        },
+        {
+          "id": 13,
+          "date": "2025-02-11",
+          "amount": -90.00,
+          "category": "Healthcare",
+          "payment_method": "Debit",
+          "merchant": "Pharmacy",
+          "recurring": null
+        },
+        {
+          "id": 14,
+          "date": "2025-02-12",
+          "amount": 500.00,
+          "category": "Investment",
+          "payment_method": "Debit",
+          "merchant": "Stock Broker",
+          "recurring": "monthly"
+        }
+        ]
+    },     
+    "loan" :{
+        "home":{
+            "principal":800000,
+            "monthly":10000,
+            "year": 10
+        },
+        "car":{
+            "principal":200000,
+            "monthly":2000,
+            "year": 5
+        }
+    },
+    "goal":{
+        "monthly_budget": 2000,
+        "net_worth":{
+            "time":"2026-01-01",
+            "amount":50000
+        }
+    }
+
+}
+  
+  

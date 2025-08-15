@@ -1,0 +1,46 @@
+{
+  "transactions": [
+    {
+      "name": "salary",
+      "category": "personal",
+      "type": "income",
+      "recurrence": "daily",
+      "amount": 1000.00
+    },
+    {
+      "name": "freelance work",
+      "category": "personal",
+      "type": "expense",
+      "recurrence": "weekly",
+      "amount": 500.00
+    },
+    {
+      "name": "birthday money",
+      "category": "living",
+      "type": "income",
+      "recurrence": "monthly",
+      "amount": 50.00
+    },
+    {
+      "name": "bunny",
+      "category": "living",
+      "type": "expense",
+      "recurrence": "monthly",
+      "amount": 500.00
+    },
+    {
+      "name": "birthday money",
+      "category": "investments",
+      "type": "income",
+      "recurrence": "monthly",
+      "amount": 50.00
+    },
+    {
+      "name": "bunny",
+      "category": "investments",
+      "type": "expense",
+      "recurrence": "monthly",
+      "amount": 500.00
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+.transactions-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.income, .expenses {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.transaction-header h2 {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin: 0;
+}
+
+.income .transaction-header {
+    color: #38a169;
+}
+
+.expenses .transaction-header {
+    color: #e53e3e;
+}
+
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #f7fafc;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.transaction-item:hover {
+    transform: translateX(5px);
+}
+
+.transaction-amount {
+    font-weight: 600;
+}
+
+.income .transaction-amount {
+    color: #38a169;
+}
+
+.expenses .transaction-amount {
+    color: #e53e3e;
+}
+
+/* Dark mode styles */
+body.dark-mode .income,
+body.dark-mode .expenses {
+    background: #2d3748;
+}
+
+body.dark-mode .transaction-header h2 {
+    color: #e2e8f0;
+}
+
+body.dark-mode .transaction-item {
+    background: #1a202c;
+}
+
+.transaction-details {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.transaction-name {
+    font-weight: 500;
+}
+
+.transaction-type {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+}
+
+body.dark-mode .transaction-type {
+    color: #a0aec0;
+}
+
+.transaction-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.delete-button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    transition: all 0.2s ease;
+    opacity: 0;
+}
+
+.transaction-item:hover .delete-button {
+    opacity: 1;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+/* Dark mode support */
+body.dark-mode .delete-button {
+    background-color: #e53e3e;
+}
+
+body.dark-mode .delete-button:hover {
+    background-color: #c53030;
+}
+  

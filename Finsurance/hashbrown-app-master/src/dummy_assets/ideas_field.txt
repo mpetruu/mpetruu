@@ -1,0 +1,35 @@
+
+Mortagage calculation
+
+6% fixed rate
+
+
+
+
+"financial_wellness": 
+      "emergency_savings": 15000,
+      "monthly_expenses": 3000,
+      "debt_to_income_ratio": 0.25,
+      "credit_score": 750,
+      "consistent_savings": true,
+      "income": 6000,
+      "high_interest_debt": 0,
+      "bills_paid_on_time": true,
+      "retirement_savings": {
+        "401k_balance": 50000,
+        "monthly_contribution": 500
+      },
+      "insurance": {
+        "health": true,
+        "life": true,
+        "property": true
+      },
+      "financial_goals": [
+        "Save for a house",
+        "Increase retirement savings",
+        "Pay off student loans"
+      ],
+      "budgeting": {
+        "monthly_budget": 5000,
+        "expenses_tracked": true
+      },

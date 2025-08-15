@@ -1,0 +1,150 @@
+/* Add these styles near the top of the file */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.chatbot-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.chatbot-status {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  background-color: #2a9d8f;
+  padding: 15px 25px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+  z-index: 1001;
+  transform: scale(1.2);
+}
+
+.status-text {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.status-indicator {
+  width: 14px;
+  height: 14px;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  display: inline-block;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.9);
+  }
+  
+  70% {
+    transform: scale(1.2);
+    box-shadow: 0 0 0 15px rgba(46, 204, 113, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(46, 204, 113, 0);
+  }
+}
+
+/* Dark mode styles */
+:root {
+  --background-light: #ffffff;
+  --background-dark: #1a202c;
+  --text-light: #000000;
+  --text-dark: #ffffff;
+}
+
+/* Update the body.dark-mode styles */
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+  min-height: 100vh; /* Ensure full height */
+  width: 100vw; /* Ensure full width */
+  position: relative; /* Create new stacking context */
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  position: fixed;
+  top: 80px; /* Position below the banner */
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+}
+
+.dark-mode-toggle::before {
+  content: '💧';
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.dark-mode-toggle.dark::before {
+  content: '☂️';
+}
+
+/* Water bubble animation */
+.water-bubble {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%, 
+    rgba(255, 255, 255, 0.95),
+    rgba(59, 130, 246, 0.8)
+  );
+  animation: floatBubble 2s ease-out forwards;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+@keyframes floatBubble {
+  0% {
+    transform: translate(0, 0) scale(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(var(--tx), var(--ty)) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Remove or comment out these dark mode adjustments */
+/* body.dark-mode .chatbot-status {
+  background-color: #1e4e8c;
+}
+
+body.dark-mode .status-indicator {
+  background-color: #60a5fa;
+} */ 
