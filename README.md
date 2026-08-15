@@ -121,13 +121,7 @@ Created a lexer and parser for a custom programming language called Ilys. Both a
 ---
 
 ## Languages used in Projects
-
-- **TypeScript** — 60.6%
-- **CSS** — 19.4%
-- **C++** — 10.5%
-- **Python** — 6.1%
-- **JavaScript** — 1.7%
-- **HTML** — 1.7%
+TypeScript, CSS, C++, Python, JavaScript, HTML
 
 ## Open Source Contributions
 
