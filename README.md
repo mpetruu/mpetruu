@@ -7,10 +7,36 @@
 
 Organizations Team: business platform and multi-shop + partners-related features
 
+Stack: Ruby, Rails, GraphQL, Postgres, TypeScript, Elasticsearch
+
 ### Software Engineer, Core - [shopify.com](https://www.shopify.com)
 *January 2026 - April 2026*
 
 Access Team: auth infra + foundational permissions
+
+Stack: Ruby, Rails, GraphQL, Postgres, TypeScript, Elasticsearch
+
+### Software Engineer, Growth RnD - [botpress.com](https://botpress.com/)
+*April 2025 - August 2025*
+
+Growth RnD: Building features that make customers spend more
+
+Stack: TypeScript, Node.js, React.js, Express.js
+
+### Forward Deployed Engineer, Growth - [botpress.com](https://botpress.com/)
+*December 2024 - April 2025*
+
+1. talk to customer to diagnose issue.
+2. join their team / work on their behalf.
+3. resolve issue(s). they sign a longer contract. win-win.
+
+Stack: TypeScript, my mouth
+
+### Software Engineer, IAM - [rustica](https://rusticafoods.com/)
+*February 2024 - August 2024*
+
+Working on internal sites / internal tools related to inventory, ticketing systems, data pipelines,
+and identity/access management (i hate microsoft entra id).
 
 ## Projects
 
