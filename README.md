@@ -127,6 +127,6 @@ TypeScript, CSS, C++, Python, JavaScript, HTML
 
 Click the following links to see my open source contributions to Botpress! I contributed to the main [Botpress repository](https://github.com/botpress/botpress/commits/?author=mpetruu). I also contributed to the [Botpress Growth repository](https://github.com/botpress/growth/commits/?author=mpetruu) and [Botpress Docs repo](https://github.com/botpress/readme/commits/?author=mpetruu).
 
-## 📫 Contact
+## Contact
 - Email: matthew.petruzziello@mail.mcgill.ca
 - LinkedIn: [matthew-petruzziello](https://linkedin.com/in/matthew-petruzziello)
