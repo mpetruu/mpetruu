@@ -1,8 +1,16 @@
 ~ yo, my name's Matthew. I'm a U4 Software Engineering student at McGill. I'm very interested in product R&D. I'm not interested if it doesn't genuinely impact people. Here's some stuff I've done:
 
 ## Experience
-- 
 
+### Software Engineer, Shopify Foundations - [shopify.com](https://www.shopify.com)
+*April 2026 - August 2026*
+
+Organizations Team: business platform and multi-shop + partners-related features
+
+### Software Engineer, Core - [shopify.com](https://www.shopify.com)
+*January 2026 - April 2026*
+
+Access Team: auth infra + foundational permissions
 
 ## Projects
 
