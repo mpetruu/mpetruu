@@ -1,13 +1,10 @@
-## 🙋 About me
-My name is Matthew Petruzziello and I'm a U3 Software Engineering student at McGill University. I have experience in full-stack development, growth engineering, DevOps, and Solutions Architecture.
+~ yo, my name's Matthew. I'm a U4 Software Engineering student at McGill. I'm very interested in product R&D. I'm not interested if it doesn't genuinely impact people. Here's some stuff I've done:
 
-🤖 I most recently worked as a Software Engineer Intern at [Botpress](https://botpress.com) from April 2025 to August 2025.
+## Experience
+- 
 
-‍💻 I previously worked as a Growth Engineer Intern at [Botpress](https://botpress.com) from December 2024 to April 2025.
 
-⚙️ I also worked as a Software Engineer Intern at [Rustica](https://rusticafoods.com) from February 2024 to August 2024.
-
-## 🏆 Projects
+## Projects
 
 ### Jarvis - [jarvis.botpress.sh](https://jarvis.botpress.sh)
 *June 2025 - August 2025*
@@ -87,10 +84,10 @@ Created a lexer and parser for a custom programming language called Ilys. Both a
 
 ---
 
-## 🔧 Languages used in Projects
+## Languages used in Projects
 [![Top Langs (Work)](https://github-readme-stats.vercel.app/api/top-langs/?username=mpetruu&layout=compact&theme=default&title_color=333)](https://github.com/mpetruu)
 
-## 💻 Open Source Contributions
+## Open Source Contributions
 
 Click the following links to see my open source contributions to Botpress! I contributed to the main [Botpress repository](https://github.com/botpress/botpress/commits/?author=mpetruu). I also contributed to the [Botpress Growth repository](https://github.com/botpress/growth/commits/?author=mpetruu) and [Botpress Docs repo](https://github.com/botpress/readme/commits/?author=mpetruu).
 
