@@ -36,7 +36,9 @@ Stack: TypeScript, my mouth
 *February 2024 - August 2024*
 
 Working on internal sites / internal tools related to inventory, ticketing systems, data pipelines,
-and identity/access management (i hate microsoft entra id).
+and identity/access management.
+
+Stack: PHP, SQL, Microsoft stack (entra / azure, power automate, etc...)
 
 ## Projects
 
