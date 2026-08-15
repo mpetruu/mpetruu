@@ -121,7 +121,13 @@ Created a lexer and parser for a custom programming language called Ilys. Both a
 ---
 
 ## Languages used in Projects
-[![Top Langs (Work)](https://github-readme-stats.vercel.app/api/top-langs/?username=mpetruu&layout=compact&theme=default&title_color=333)](https://github.com/mpetruu)
+
+- **TypeScript** — 60.6%
+- **CSS** — 19.4%
+- **C++** — 10.5%
+- **Python** — 6.1%
+- **JavaScript** — 1.7%
+- **HTML** — 1.7%
 
 ## Open Source Contributions
 
